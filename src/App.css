@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  height: 750px;
+  border:solid 2px;
+  background: lightgray;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Croquis{
+  border:solid red 3px;
+  margin: 100px;
+  height: 400px;
+}
+ .EdificioG {
+   width: 200px;
+   height: 100px;
+   background: whitesmoke;
+   border: solid green 2px;
+   position: absolute;
+   top:100px;
+   left:150px;
+
+ }
+ .Cafeteria{
+   width: 80px;
+   height: 60px;
+   background: whitesmoke;
+   border: solid green 2px;
+   border-radius: 10px 10px 80px 80px;
+   position: absolute;
+   top:10px;
+   left:450px;
+ }
+
+ .EdificioD{
+  
+  width: 305px;
+  height: 80px;
+  background: whitesmoke;
+  border: solid lightgray 2px;
+  position: absolute;
+  top:40px;
+  left:650px;
+ }
+
+ .Salones{
+   width: 60px;
+   height: 80px;
+   float: left;
+   border:solid green .5px;
+ }
+
+ .Escaleras{
+  width: 60px;
+  height: 80px;
+  float: left;
+  /* border-width: .5px .5px 0 .5px; 
+  border:solid black; */
+  border-style: solid;
+  border-color: green;
+  border-width: .5px;
+  border-bottom:transparent;
+  border-top: transparent;
+ }
+
+.EdificioC{
+  width: 367px;
+  height: 80px;
+  background: whitesmoke;
+  border: solid lightgray 2px;
+  position: absolute;
+  top:210px;
+  left:750px;
+}
+.SalonesB{
+  width: 150px;
+  height: 60px;
+  border:solid green .5px;
+}
+.Baños{
+  width: 150px;
+  height: 40px;
+  border:solid green .5px;
+}
+.EdificioB{
+  width: 150px;
+  height: 205px;
+  background: whitesmoke;
+  border: solid lightgray 2px;
+  position: absolute;
+  top:160px;
+  left:430px;
+}
