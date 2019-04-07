@@ -8,6 +8,8 @@ import EdificioC from './components/EdificioC'
 import EdificioB from './components/EdificioB'
 import EdificioE from './components/EdificioE'
 import EdificioM from './components/EdificioM'
+import EdificioF from './components/EdificioF'
+import EdificioA from './components/EdificioA'
 class App extends Component {
   render() {
     return (
@@ -19,6 +21,8 @@ class App extends Component {
         <EdificioB/>
         <EdificioE/>
         <EdificioM/>
+        <EdificioF/>
+        <EdificioA/>
       </div>
     );
   }

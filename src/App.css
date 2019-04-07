@@ -108,7 +108,7 @@
   background: whitesmoke;
   border: solid lightgray 2px;
   position: absolute;
-  top:420px;
+  top:400px;
   left:305px;
 }
 .EdificioM{
@@ -117,7 +117,7 @@
   background: whitesmoke;
   border: solid lightgray 2px;
   position: absolute;
-  top:620px;
+  top:550px;
   left:305px;
 }
 .SalonesM{
@@ -129,4 +129,59 @@
    justify-content: center;
    align-content: center;
    flex-direction: column;
+}
+.EdificioF{
+  width: 320px;
+  height: 80px;
+  background: whitesmoke;
+  border: solid lightgray 2px;
+  
+  position: absolute;
+  top:550px;
+  left:570px;
+}
+.SalonesF1{
+  float: left;
+  width: 120px;
+  height: 80px;
+  border:solid green .5px;
+  display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: column;
+}
+.SalonesF2{
+  float: left;
+  width: 37.5px;
+  height: 80px;
+  border:solid green .5px;
+  display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: column;
+  
+}
+.textorot{
+  transform: rotate(-90deg);
+}
+.EdificioA{
+  width: 367px;
+  height: 80px;
+  background: whitesmoke;
+  border: solid lightgray 2px;
+  position: absolute;
+  top:500px;
+  left:950px;
+}
+.SalonesA1{
+  float: left;
+  border:solid green .5px;
+  height: 80px;
+}
+.SalonesA2{
+  margin-left: 218px;
+  border:solid green .5px;
+  float: inherit;
+  height: 40px;
+  width: 150px;
 }
